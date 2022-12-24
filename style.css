@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background: #f3e7d5 ;
+    position: relative;
+    font-family: roboto, sans-serif;
+}
+/*Setting up the navigation bar*/
+.navbar{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0 1%;
+    background-image: linear-gradient( 135deg, #FFD3A5 10%, #FD6585 100%);  
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+}
+/*Formatting up the navigation bar text*/
+.nav-text{
+    font-size: xxx-large;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight:bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #14365d;
+    opacity: 0.9;
+    text-decoration: none;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    text-decoration: underline;
+}
+/*Setting up the card*/
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    height: 600px;
+    background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%);
+    width: 80%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    filter: drop-shadow(10px 10px 10px rgb(245, 32, 107));
+    opacity: 0.9;
+}
+  /* On mouse-over, adding a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    width: 85%;
+    transition: all 0.3s;
+    height: 550px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    transition: all 0.3s;
+}
+  
+  /* Adding some padding inside the card container */
+  .container {
+    padding: 40px 160px;
+    font-family: cursive;
+    font-size:x-large;
+    text-align: justify;
+    font-style: oblique;
+  }
+  /*Setting up image in the card*/
+  .card-img{
+    height: 60%;
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 450px;
+    filter: drop-shadow(10px 10px 10px rgba(250, 250, 250, 0.815));
+    transition: 0.3s;
+    border-radius: 10px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/*Setting up hover effect on image*/
+.card-img:hover {
+    width: 500px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: inline-block;
+    height: 65.0%;
+    margin-top: 80px;
+    margin-left: 20px;
+    width: 500px;
+}
+/*Formatting the text inside the card*/
+  .content{
+    padding-top: 90px;
+    padding-left: 550px;
+    font-style: oblique;
+    font-size: x-large;
+    font-family: fantasy;
+    word-wrap: break-word;
+    width: 95.0%;
+    position: absolute;
+    line-height: 40px;
+    text-align: center;
+  }
